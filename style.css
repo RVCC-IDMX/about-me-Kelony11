@@ -1,0 +1,99 @@
+/* school project css*/
+
+body{
+    background-color:#64CCC5;
+    color:black;
+    font-family:'Roboto', sans-serif;
+}
+
+#bio, #hobbies, #gallery {
+    text-align: center;
+    font-size: 13pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 40pt;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+
+h1{
+    font-size: 40pt;
+}
+
+header{
+    text-align: center;
+}
+
+#hero, footer {
+    text-align: center;
+    border: 2px solid #327083;
+    background-color:#9400FF;
+}
+#hero img {
+    width:300px;
+}
+
+/*Gallery*/ 
+#gallery{
+  border: 2px solid #9400FF;
+  margin-bottom: 2rem;
+}
+
+#gallery img{
+    max-width:100%;
+}
+
+#gallery figure{
+    text-align:center;
+}
+
+
+/* hobbies list */
+#hobbies ul{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#hobbies ul li:nth-child(odd) {
+    color:#9400FF;
+}
+
+/*literature*/
+#lit{
+border: 2px solid #9400FF;
+margin-bottom: 2rem;
+}
+
+#lit div {
+   padding:2rem;
+   max-width:40rem;
+   margin: 0 auto; 
+}
+
+#lit div p {
+    padding:0.3rem 0; 
+}
+
+/* Dropcaps */ 
+#lit div p:first-letter {
+    color:#362FD9;
+    background-image: radial-gradient(#fff, #9400FF );
+    float: left;
+    font-size: 3em; 
+    padding: .25em;
+    margin-right: .25em;
+    margin-left: .25em;
+    line-height: .65;
+    border: 4px outset #9400FF;
+    font-family: 'Phudu', cursive;;
+    text-shadow: 2px 2px 3px rgba(0,0,0,5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,5);
+    border-top-left-radius: .2em;
+    border-bottom-right-radius: .2rem;
+    text-align: center;
+}
+/* This is a spare font */
+/* font-family: 'Phudu', cursive; */
+
