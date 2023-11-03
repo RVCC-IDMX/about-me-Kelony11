@@ -125,15 +125,66 @@
 
    </article>
 
-   <section id="contact-me"> 
+   <section id="contact"> 
     
-    <form action="/submit-email">
-    <h2>Contact Email</h2>
-    <h3> Email: <input type="text"> </h3> 
-    <button type="submit" value="submit">Submit</button>
-  </form>
+    <h2> Contact Us </h2>
+
+    <form id="contactForm" name="contactForm" method="post" data-netlify="true">
+
+        <fieldset>
+          <legend>Contact Form</legend>
+
+          <div id="formElements">
+            <!--Name for the user-->
+            <label for="name" >Name (required)</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Email for the user-->
+            <label for="email" >Email (required)</label>
+            <input type="email" id="email" name="email" required>
+
+            <!--Phone for the user-->
+            <label for="phone" >Phone (required)</label>
+            <input type="tel" id="phone" name="phone">
+
+            <!-- Phone Type for the user-->
+            <label for="phonetype" > Phone Type (optional)</label>
+            <select id="phonetype" name="phonetype">
+              <option value="" selected>Select phone type</option>
+              <option value="mobile">Mobile</option>
+              <option value="work">Work</option>
+              <option value="home">Home</option>
+            </select>
+
+            <!--Message from the user-->
+            <label for="message"> Message (optional)</label>
+            <textarea id="message" name="message" rows="9"></textarea>
+
+            <!-- Reply -->
+            <fieldset>
+              <legend> Would you like a reply? </legend>
+
+              <ul>
+                  <li>
+                    <input type="radio" id="message-yes" name="reply" value="Yes, a reply please."> 
+                    <label for="message-yes"> Yes, a reply would be nice.</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="message-no" name="reply" value="No reply please" checked> 
+                    <label for="message-no"> No, Thanks.</label>
+                  </li>
+              </ul>
+
+            </fieldset>
+            <!--Submit-->
+            <button type="submit"> Send </button>
+          </div>
+          
+
+        </fieldset>
+    </form>
   
- </section>
+  </section>
 
 </main>
 

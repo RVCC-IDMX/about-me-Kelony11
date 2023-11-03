@@ -167,3 +167,11 @@ margin-top: 20px;
 /* This is a spare font */
 /* font-family: 'Phudu', cursive; */
 
+/* Contact Form */
+#contact {
+    text-align: left;
+}
+#formElements {
+    display:grid;
+}
+
