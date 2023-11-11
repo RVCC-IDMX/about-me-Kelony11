@@ -69,10 +69,17 @@ main {
     padding: 1rem 1.25rem;
     letter-spacing: 2px ;
     text-decoration: none;
-    display: inline-block;
+    display:inline-block;
 }
 
-
+.navbar-links a:hover, 
+.navbar-links a:focus {
+    color:#538F22;
+    background-color: whitesmoke;
+    /*filter: invert(1); */
+    border-radius: 10px;
+    outline: none; 
+}
 
 /* 
 media query for non-mobile nav bar
