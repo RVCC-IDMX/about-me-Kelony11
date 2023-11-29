@@ -7,6 +7,7 @@ body{
     text-align:center;
 }
 
+
 #bio, #hobbies, #gallery {
     text-align: center;
     font-size: 13pt;
@@ -45,6 +46,8 @@ header{
 }
 #hero img {
     width:300px;
+    margin-top:30px;
+    border-radius: 20px;
 }
 
 /*Gallery*/ 
