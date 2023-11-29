@@ -13,7 +13,7 @@ body{
     font-size: 13pt;
 }
 
-h1, h3, h4, h5, h6 {
+h1, h3, h4, h6 {
     font-size: 40pt;
     font-family: 'Grenze Gotisch', cursive;
     text-align: center;
@@ -29,6 +29,7 @@ h2{
 p {
     font-family: 'Brygada 1918', serif;
     font-size: 20pt;
+    text-align: center;
 }
 h1{
     font-size: 40pt;
@@ -48,7 +49,28 @@ header{
     width:300px;
     margin-top:30px;
     border-radius: 20px;
+    max-width:100%;
 }
+
+/* Resume */ 
+
+#Resume {
+    align-items:center; 
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+
+#Projects {
+    align-items:center; 
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
 
 /*Gallery*/ 
 #gallery{
@@ -78,6 +100,7 @@ header{
     width:50%;
     margin-left:auto;
     margin-right:auto;
+    font-size: 20px;
 }
 
 #hobbies ul li:nth-child(odd) {
@@ -99,6 +122,12 @@ margin-top: 20px;
 
 #lit div p {
     padding:0.3rem 0; 
+}
+
+/* Video */
+#video iframe {
+    display:inline-block;
+    max-width:100%;
 }
 
 
@@ -217,3 +246,12 @@ legend {
     justify-self: center; 
 }
 
+/* Socials */
+
+
+#socials {
+    align-items:center; 
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
