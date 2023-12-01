@@ -80,6 +80,7 @@ header{
 
 #gallery img{
     max-width:100%;
+    border-radius: 20px;
 }
 
 #gallery figure{
