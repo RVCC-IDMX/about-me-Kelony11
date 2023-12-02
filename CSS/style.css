@@ -10,7 +10,9 @@ body{
 .navbar-links ul li {
     font-family: 'EB Garamond', serif;
 }
-
+.logo h1 {
+    font-family: 'EB Garamond', serif;
+}
 #bio, #hobbies, #gallery {
     text-align: center;
     font-size: 13pt;
