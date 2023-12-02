@@ -100,7 +100,6 @@ header{
     text-align:center;
 }
 
-
 /* hobbies list */
 
 #hobbies {
@@ -143,6 +142,7 @@ margin-top: 20px;
 #video iframe {
     display:inline-block;
     max-width:100%;
+    border: 2px solid black; 
 }
 
 
