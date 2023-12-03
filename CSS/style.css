@@ -10,7 +10,8 @@ body{
 .navbar-links ul li {
     font-family: 'EB Garamond', serif;
 }
-.logo h1 {
+
+h1 {
     font-family: 'EB Garamond', serif;
     text-align: center;
 }
@@ -282,6 +283,6 @@ legend {
     justify-content: space-around;
 }
 
-#back-to-top h5 {
+h5 {
     text-align: center;
 }
