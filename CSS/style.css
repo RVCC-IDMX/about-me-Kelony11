@@ -12,6 +12,7 @@ body{
 }
 .logo h1 {
     font-family: 'EB Garamond', serif;
+    text-align: center;
 }
 
 .logo img {
