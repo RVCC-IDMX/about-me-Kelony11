@@ -273,3 +273,15 @@ legend {
     flex-direction:row;
     justify-content: space-around;
 }
+
+
+#back-to-top {
+    align-items:center; 
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+#back-to-top h5 {
+    text-align: center;
+}
