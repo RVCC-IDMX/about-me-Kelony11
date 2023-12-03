@@ -283,10 +283,10 @@ legend {
     display:flex;
     flex-direction:row;
     justify-content: space-around;
-    margin-bottom: -40px;
+    margin-bottom: -55px;
 }
 
 h5 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
