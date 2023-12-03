@@ -16,9 +16,14 @@ h1 {
     text-align: center;
 }
 
-.logo img {
-    align-self: center;
+.navbar .logo img{
+    align-items:center; 
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
 }
+
+
 #bio, #hobbies, #gallery {
     text-align: center;
     font-size: 13pt;
