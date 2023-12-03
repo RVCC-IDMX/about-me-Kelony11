@@ -16,7 +16,7 @@ h1 {
     text-align: center;
 }
 
-#header img{
+#header .logo img{
     align-items:center; 
     display:flex;
     flex-direction:row;
