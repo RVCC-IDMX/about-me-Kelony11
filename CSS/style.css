@@ -16,7 +16,7 @@ h1 {
     text-align: center;
 }
 
-.navbar .logo img{
+#header img{
     align-items:center; 
     display:flex;
     flex-direction:row;
@@ -280,6 +280,7 @@ legend {
     justify-content: space-around;
 }
 
+/* Back to the top button */
 
 #back-to-top {
     align-items:center; 
