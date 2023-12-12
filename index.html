@@ -9,21 +9,57 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link href="./Css/style.css" rel="stylesheet">
    <link href="./Css/nav.css" rel="stylesheet">
+   
+   <!-- Navbar Hamgburger icon -->
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link href="https://colorhunt.co/palette/053b50176b8764ccc5eeeeee" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Phudu&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+   <title> Responsive Navbar </title>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <link href="./Css/style.css" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon logo -->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./img/logo_batch.ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./img/logo_batch.ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./img/logo_batch.ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/logo_batch.ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./img/logo_batch.ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./img/logo_batch.ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./img/logo_batch.ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./img/logo_batch.ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/logo_batch.ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./img/logo_batch.ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/logo_batch.ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./img/logo_batch.ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/logo_batch.ico/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://colorhunt.co/palette/053b50176b8764ccc5eeeeee" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Phudu&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+
+  <!-- -->
+
 
 </head>
 
@@ -35,8 +71,9 @@
 <section id="header"> 
   
   <header>  
+    
     <nav class="navbar">
-
+  
       <!-- This section shows my logo only-->
       <div class="logo">
         <img src="./img/logo.png" alt="A depressed teddy bear">
@@ -44,8 +81,20 @@
 
         <h1>Welcome To My Website</h1>
 
-      <div class="navbar-links">
-        <ul> 
+        <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+      <nav class="navbar-links">
+
+        <label for="nav__checkbox" class="nav__toggle"> 
+          <svg class="menu" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+
+          <svg class="close" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+          </svg>
+
+        </label>
+        <ul > 
 
           <li><a href="#bio"><b>Bio</b></a></li>
           <li><a href="#Projects"><b>Resume</b></a></li>
@@ -54,7 +103,7 @@
           <li><a href="#socials"><b>Connect</b></a></li>
   
         </ul>
-      </div>
+      </nav>
     </nav>
 </header>
 
@@ -64,7 +113,7 @@
 <main>
   <!--This is where the main content lives-->
   <section id="hero">
-    <img src="./img/IMG_7830.jpg" alt="An avatar picture of Kelvin Ihezue">
+    <img src="./img/IMG_7830.jpg" alt="A headshot photo of Kelvin Ihezue">
     <div> 
       <p><b>Kelvin Ihezue</b></p>
       <p>Somerset, NJ</p>
@@ -77,9 +126,9 @@
     <div>
       <h2>Biography</h2>
       <p>Hello, my name is Kelvin Ihezue. I am an insightful Computer Science Student at Raritan Valley Community College who excels in Python, HTML/CSS, and JavaScript.
-         Effectively managing a part-time work schedule with a full-time academic course load. 
-         Experienced in delivering superior customer service and producing quality work independently.</p>
-         <p>Self-directed learner who has successfully completed computer-related certificates. 
+         I'm effectively managing a part-time work schedule with a full-time academic course load. 
+         I'm experienced in delivering superior customer service and producing quality work independently.</p>
+         <p>I'm also a self-directed learner who has successfully completed computer-related certificates. 
          Accepted to Rutgers University to pursue a Bachelor's degree in Computer Science. </p>
     
     </div>
@@ -194,7 +243,6 @@
       <h5><b> Venue : Theodore Roosevelt Park </b></h5>
     </figure>
 
-
    </section>
 
 
@@ -206,25 +254,50 @@
     <p><b> Venue : Metlife Stadium, NJ 🏟️</b></p>
   </section>
 
-  
-<!-- Articles -->
-   <article id="lit">
+
+    <!-- Section for my Blog Article -->
+   <article id="blog">
      
-    <h2> An Excerpt from Dracula </h2>
+    <h2> Variable Fonts </h2>
 
     <div>
-      <p>We've told yarns by the camp-fire in the prairies; and dressed one another's wounds after trying a landing at the Marquesas; and drunk healths on the shore of Titicaca. There are more yarns to be told, and other wounds to be healed, and another health to be drunk. Won't you let this be at my camp-fire to-morrow night? I have no hesitation in asking you, as I know a certain lady is engaged to a certain dinner-party, and that you are free. There will only be one other, our old pal at the Korea, Jack Seward. He's coming, too, and we both want to mingle our weeps over the wine-cup, and to drink a health with all our hearts to the happiest man in all the wide world, who has won the noblest heart that God has made and the best worth winning. We promise you a hearty welcome, and a loving greeting, and a health as true as your own right hand. We shall both swear to leave you at home if you drink too deep to a certain pair of eyes. Come!</p>
 
-      <p>Lucy met me at the station, looking sweeter and lovelier than ever, and we drove up to the house at the Crescent in which they have rooms. This is a lovely place. The little river, the Esk, runs through a deep valley, which broadens out as it comes near the harbour. A great viaduct runs across, with high piers, through which the view seems somehow further away than it really is. The valley is beautifully green, and it is so steep that when you are on the high land on either side you look right across it, unless you are near enough to see down. The houses of the old town--the side away from us--are all red-roofed, and seem piled up one over the other anyhow, like the pictures we see of Nuremberg. Right over the town is the ruin of Whitby Abbey, which was sacked by the Danes, and which is the scene of part of "Marmion," where the girl was built up in the wall. It is a most noble ruin, of immense size, and full of beautiful and romantic bits; there is a legend that a white lady is seen in one of the windows. Between it and the town there is another church, the parish one, round which is a big graveyard, all full of tombstones. This is to my mind the nicest spot in Whitby, for it lies right over the town, and has a full view of the harbour and all up the bay to where the headland called Kettleness stretches out into the sea. It descends so steeply over the harbour that part of the bank has fallen away, and some of the graves have been destroyed. In one place part of the stonework of the graves stretches out over the sandy pathway far below. There are walks, with seats beside them, through the churchyard; and people go and sit there all day long looking at the beautiful view and enjoying the breeze. I shall come and sit here very often myself and work. Indeed, I am writing now, with my book on my knee, and listening to the talk of three old men who are sitting beside me. They seem to do nothing all day but sit up here and talk.</p>
+      <h3><b> Definition </b></h3>
+      <p> What are Variable fonts? </p>
+      <p> Variable fonts are a brand new form of font layout that allows the adjustment of diverse attributes inside a unmarried font file. </p>
+      
+      <h3><b> Benefits </b></h3>
+      <p> What are the benefits of variable fonts? </p>
 
-      <p>The harbour lies below me, with, on the far side, one long granite wall stretching out into the sea, with a curve outwards at the end of it, in the middle of which is a lighthouse. A heavy sea-wall runs along outside of it. On the near side, the sea-wall makes an elbow crooked inversely, and its end too has a lighthouse. Between the two piers there is a narrow opening into the harbour, which then suddenly widens.</p>
+      
+      <span class="dropCap">1</span> <h4 class="blog_points"><b> Smaller File Size </b></h4>
+      <p> Variable fonts compresses the file size and also reduces the loading time of webpages and applications. </p>
+      
+      <span class="dropCap">2</span> <h4 class="blog_points"><b> Single Font File </b></h4>
+      <p> With reduced font size, the user only needs one font file instead of multiple ones. Therefore, it improves the user's experience, saving storage space and bandwidth. </p>
+      
+      <span class="dropCap"> 3 </span> <h4 class="blog_points"><b> Flexible design range </b></h4>
+      <p> Variable fonts gives room for creativity and flexibility as it enables you to create expressive typography by manipulating the shape, size, contrast, extra weights/patterns and movement of the fonts. </p>
 
-      <p>It is nice at high water; but when the tide is out it shoals away to nothing, and there is merely the stream of the Esk, running between banks of sand, with rocks here and there. Outside the harbour on this side there rises for about half a mile a great reef, the sharp edge of which runs straight out from behind the south lighthouse. At the end of it is a buoy with a bell, which swings in bad weather, and sends in a mournful sound on the wind. They have a legend here that when a ship is lost bells are heard out at sea. I must ask the old man about this; he is coming this way....</p>
+      <h3><b> Visual Examples </b></h3>
+
+      <img src="./img/code.jpg" alt="A picure of a css code containing variable fonts">
+      <h5><b> CSS code of some Variable fonts styles </b></h5>
+      <img src="./img/display code.jpg" alt="A picure of diplaying the variable fonts code ">
+      <h5><b> Visualization of the CSS code </b></h5>
+
+
+      <p> In the above example, the font-families are arranged from the Bold-italic in the first line to light-italic in the second and finally, thin-italic in the third line. </p>
+
+      <h3><b> Conclusion</b></h3>
+      <p> Variable fonts are valuable tools for web designers to create more efficient, flexible and creative webpages. </p>
+
 
     </div>
 
    </article>
 
+   <!-- Contact form section -->
    <section id="contact"> 
     <!-- Contact form for user-->
     <h2> Contact Me </h2>
@@ -265,14 +338,14 @@
               <legend> Would you like a reply? </legend>
 
               <ul>
-                  <li>
+                  <h4>
                     <input type="radio" id="message-yes" name="reply" value="Yes, a reply please."> 
                     <label for="message-yes"> Yes, a reply would be nice.</label>
-                  </li>
-                  <li>
+                  </h4>
+                  <h4>
                     <input type="radio" id="message-no" name="reply" value="No reply please" checked> 
                     <label for="message-no"> No, Thanks.</label>
-                  </li>
+                  </h4>
               </ul>
 
             </fieldset>
@@ -285,13 +358,13 @@
     </form>
   
 
-
-  <h4> Connect with Me </h4>
+  
+    <h2 id="socialsHeading"> Connect with Me </h2>
   <section id="socials">
     <!-- This contains link to my various social media accounts -->
     <a href="https://m.facebook.com/kelony.ihezue?mibextid=LQQJ4d"><img src="./img/facebook.svg" alt="Facebook logo" height="30"></a>
     <a href="https://www.linkedin.com/in/kelvin-ihezue-3b990a293"><img src="./img/linkedin.svg" alt="linkedin logo" height="30"></a>
-    <a href=""><img src="./img/twitter-x.svg" alt="X (Twitter) logo" height="30"></a>
+    <a href=""><img src="./img/playstation.svg" alt="Playstation logo" height="30"></a>
     <a href=""><img src="./img/youtube.svg" alt="YouTube logo" height="30"></a>
     <a href="https://github.com/Kelony11"><img src="./img/github.svg" alt="Github logo" height="30"></a>
     <a href="https://www.threads.net/@kelony_yn_baby"><img src="./img/threads.svg" alt="Threads logo" height="30"></a>
@@ -300,6 +373,7 @@
 
   <h5><b> Wanna head back to the top of the screen? Click the arrow-up button </b></h5>
 
+   <!-- Button to head to the top of the webpage -->
   <section id="back-to-top">
     <a href="#header"><img src="./img/arrow-up-circle-fill.svg" alt="Home button" height="40"></a>
   </section>
@@ -308,6 +382,7 @@
 
 <hr>
 
+<!-- This section contains my Github repo and my name -->
 <footer>
 
   <a href="https://github.com/RVCC-IDMX/about-me-Kelony11"> Github Repo </a>
