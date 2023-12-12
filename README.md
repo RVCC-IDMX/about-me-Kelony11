@@ -16,7 +16,7 @@ The purpose of this website is to showcase a little bit of my Web Development an
 <!-- Sections of the Webpage -->
 
 # Header 
-This section contains the logo and responsive navbar compatible with desktop and mobile devices. In the process of making this section, i learned about making your website unique and authentic. I had to make sure that Everything included in the header section was original, from the images to the texts. The Hamburger menu Navbar list contains on-click shortcuts to the "Key" (Important) sections of the webpage. Finally, i attached a link to the logo image that refreshes the page once clicked. 
+This section contains the logo and responsive navbar compatible with desktop and mobile devices. In the process of making this section, i learned about making your website unique and authentic. I had to make sure that Everything included in the header section was original, from the images to the texts. The Hamburger menu Navbar list contains on-click shortcuts to the "Key" (Important) sections of the webpage. Finally, i attached a link to the logo image that refreshes the webpage once it's clicked. 
 
 # Hero 
 This sections contains a headshot photo of me, and three bullet points - My Name, Base location and a sentence that highlights me. I learned to build a professional header that would put me in a good light and be presentable to employers.
@@ -100,8 +100,9 @@ Sources:
 
 <!-- License  & Copyrights -->
 
-I reserve copyrights to all the contents included in this webpage and do NOT wish to release any content at the moment. 
+# Licenses
 
+Video Content, Logo and Images are rightfully owned by KELONY LLC which I reserve all copyrights.
 
 Kelvin Ihezue!
 
