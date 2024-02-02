@@ -85,13 +85,14 @@ header{
 /* Projects */
 
 .project-heading {
-
     margin-bottom: 30px;
 }
+
 #projects, .cards {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    border-radius: 20px;
 }
 
 .tools {
