@@ -91,8 +91,7 @@ header{
 #projects, .cards {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    border-radius: 20px;
+    grid-gap: 20px;  
 }
 
 .tools {
@@ -119,7 +118,7 @@ header{
 
 .project-item {
     background-color: #538F22;
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 7px;
     display:flex;
     flex-direction:column;
