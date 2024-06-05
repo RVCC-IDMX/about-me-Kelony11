@@ -211,6 +211,13 @@ header{
     border: 2px solid black; 
 }
 
+#video img{
+    display:inline-block;
+    max-width:100%;
+    border: 2px solid black;
+
+}
+
 
 /* Dropcaps */ 
 .dropCap, #experience div h3 {
