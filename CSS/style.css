@@ -215,8 +215,7 @@ header{
     display:inline-block;
     max-width:100%;
     border: 2px solid black;
-    margin-top: auto;
-    margin-bottom: 20px;
+    margin:10px;
 }
 
 
