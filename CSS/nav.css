@@ -1,0 +1,186 @@
+/* make scrolling smooth */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* 
+ get rid of padding & sizing on body so
+ header is at top
+*/
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* add some padding back to rest of page */
+
+main {
+    padding: 2vw;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #538F22;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.nav__toggle {
+    position:absolute;
+    cursor:pointer;
+    margin: -3rem 1rem;
+    left:0;
+    margin-left: 15px;
+    
+}
+
+svg{
+    width:2.5rem;
+
+}
+
+.close{
+    display:none;
+}
+
+.menu {
+    margin-top: 0.2rem;
+}
+
+.nav__checkbox {
+    display: none;
+}
+
+nav.navbar-links ul li {
+    display:none;
+}
+
+
+nav ul li {
+    display:none;
+}
+
+.nav__menu li{
+    list-style: none;
+    display: none;
+}
+
+#nav__checkbox:checked ~ nav.navbar-links ul li {
+    display:block;
+}
+
+#nav__checkbox:checked ~ nav.navbar-links label.nav__toggle .close{
+    display:block;
+}
+
+#nav__checkbox:checked ~ nav.navbar-links label.nav__toggle .menu {
+    display:none; 
+}
+
+
+
+.navbar-links ul li {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/* Destop view and mobile */
+@media screen and (min-width:560px) {
+    nav.navbar-links label.nav__toggle {
+        display:none; 
+    }
+
+    nav.navbar-links ul li {
+        flex-direction: row;
+    }
+
+    nav.navbar-links ul li {
+        display:block;
+    }
+}
+/* Navbar Media Screen for mobile */
+  
+
+/* logo */
+
+.logo { 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo img {
+    height: 7vw;
+    width: 7vw;
+}
+
+.logo h1 {
+    font-size: 2em;
+}
+/* navigation list */
+
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0; 
+}
+
+
+/*  
+ style all a tags in header 
+ and then on hover
+*/
+
+.navbar-links a {
+    color:whitesmoke;
+    background-attachment:#538F22;
+    font-size: 1.8rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px ;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.navbar-links a:hover, 
+.navbar-links a:focus {
+    color:#538F22;
+    background-color: whitesmoke;
+    /*filter: invert(1); */
+    border-radius: 10px;
+    outline: none; 
+}
+
+/* 
+media query for non-mobile nav bar
+min-width set to width of nav elements 
+such that no text wraps 
+*/
+
+@media screen and (min-width: 60rem) {
+
+    .navbar-links {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display:flex;
+        justify-content: space-between;
+    }
+}
