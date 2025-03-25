@@ -11,7 +11,7 @@ Kelvin Ihezue
 <!-- Site Description -->
 
 # Site Description 
-The purpose of this website is to showcase a little bit of my Web Development and Designing skills, as well as my academic status and professionalism. I built it from Scratch using HTML, CSS and planning on adding Javascript to it.In summary, this websites serves as a online portfolio/forum to just sharing a bit of who i am and what i aspire to be in the future.
+The purpose of this website is to showcase a little bit of my Web Development and Designing skills, as well as my academic status and professionalism. I built it from Scratch using HTML, CSS and planning on adding Javascript to it. In summary, this websites serves as a online portfolio/forum to just sharing a bit of who i am and what i aspire to be in the future.
 
 <!-- Sections of the Webpage -->
 
